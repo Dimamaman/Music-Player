@@ -221,7 +221,7 @@ class SongListActivity  : BaseSongActivity<SongListPresenter>(), SongListView  {
     @SuppressLint("QueryPermissionsNeeded")
     private fun openGithub() {
         val intent =
-            Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/a1573595/MusicPlayer"))
+            Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Dimamaman/Qosiqlar"))
 
         if (intent.resolveActivity(packageManager) != null) {
             startActivity(intent)
